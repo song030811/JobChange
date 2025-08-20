@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JobChange">
+      <UniqueIdentifier>{8b70589b-c2e0-4a2e-9d52-a574b3718917}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="Thief.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="player.h">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.h">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="Magician.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>JobChange</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Warrior.h">
+      <Filter>JobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="Thief.h">
+      <Filter>JobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="Magician.h">
+      <Filter>JobChange</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>JobChange</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
